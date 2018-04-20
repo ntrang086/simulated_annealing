@@ -1,5 +1,24 @@
-In this exercise you will check your understanding of simulated annealing by implementing the algorithm in a Jupyter notebook and using it to solve the Traveling Salesman Problem (TSP) between US state capitals.
+# Simulated Annealing
 
-To launch the notebook, run the following command from a terminal with anaconda3 installed and on the application path:
+## Introduction
+Implement [simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing) to solve the [Traveling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) (TSP) between US state capitals.
 
-    jupyter notebook AIND-Simulated_Annealing.ipynb
+There are four main steps:
+
+* Step 1: Implement the simulated_annealing() main loop function
+* Step 2: Implement the TravelingSalesmanProblem class
+* Step 3: Define the temperature schedule
+* Step 4: Solve larger TSP instances on the map of US capitals
+
+## Setup
+
+* Python 3
+* numpy
+* matplotlib
+* json
+
+## Run
+
+To open a notebook, use:
+
+`jupyter notebook <notebook.ipynb>`
